@@ -132,7 +132,7 @@ export default function App() {
         </View>
 
         <Pressable style={styles.clearButton} onPress={handleClear}>
-          <Text style={styles.clearButtonText}>C</Text>
+          <Text style={styles.clearButtonText}>Clear</Text>
         </Pressable>
       </View>
     </View>
@@ -193,14 +193,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#f0f0f0",
   },
   operatorButtonText: {
-    color: "blue",
+    color: "red",
   },
   equalButton: {
     flex: 1,
     borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "blue",
+    backgroundColor: "red",
     elevation: 3,
   },
   equalButtonText: {
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "blue",
+    backgroundColor: "red",
     marginTop: 10,
     elevation: 3,
     padding: 10,
